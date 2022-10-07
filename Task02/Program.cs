@@ -3,7 +3,7 @@
 // a = 5; b = 7 -> max = 7
 // a = 2 b = 10 -> max = 10
 // a = -9 b = -3 -> max = -3
-
+Console.Clear();
 Console.WriteLine("Введите первое число: ");
 int numberA = int.Parse(Console.ReadLine());
 
@@ -12,8 +12,8 @@ int numberB = int.Parse(Console.ReadLine());
 
 if (numberA>numberB)
 {
-  Console.Write("Больше это число: " + numberA);
+  Console.WriteLine("Больше это число: " + numberA);
 }
 else{
-  Console.Write("Больше это число: " + numberB);
+  Console.WriteLine("Больше это число: " + numberB);
 }
